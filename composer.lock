@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7239cd0fcb3686b98632f0633a8216e5",
+    "packages": [
+        {
+            "name": "kld230/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kld230/framework.git",
+                "reference": "3727d7d8b604d5e824ae6bf5fb0c7435fdfae797"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kld230/framework/zipball/3727d7d8b604d5e824ae6bf5fb0c7435fdfae797",
+                "reference": "3727d7d8b604d5e824ae6bf5fb0c7435fdfae797",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "framework\\Database\\Connection\\": "src/framework/Database/Connection/",
+                    "framework\\Database\\Schema\\": "src/framework/Database/Schema/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "yuanzhongyi",
+                    "email": "kld230@163.com"
+                }
+            ],
+            "description": "framework",
+            "time": "2019-08-01T14:32:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "kld230/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": []
+}

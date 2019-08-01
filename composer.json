@@ -1,0 +1,22 @@
+{
+    "name": "kld230/dbtools",
+    "description": "framework",
+    "type": "library",
+    "license": "MIT",
+	"authors": [
+		{
+			"name": "yuanzhongyi",
+			"email": "kld230@163.com"
+		}
+	],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.6",
+        "kld230/framework": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"DBtools\\":"src/DBtools/"
+		}
+	}
+}
